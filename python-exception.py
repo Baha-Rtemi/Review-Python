@@ -10,4 +10,8 @@ except ValueError:
     print("That is not an int!")
     exit(1)
 
-print(x / y)
+z = x / y
+
+print(f"{x} / {y} = Int z : {z}")
+
+print(f"{x} / {y} = Float z : {z:.5f}")
